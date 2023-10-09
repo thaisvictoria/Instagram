@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&family=Sofia&family=Young+Serif&display=swap');
+/* Estilos do contêiner de login */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+
+/* Estilos da div da imagem */
+.image-container {
+  flex: 1;
+  max-width: 27.2%;
+  padding: 50px;
+  
+}
+
+.image-container img {
+  width: 450px
+}
+
+/* Estilos da div do formulário */
+.input-container {
+  flex: 1;
+  max-width: 20%;
+  text-align: center;
+  border-color: black;
+  border: 2px solid #ccc; /* Adiciona uma borda de 2 pixels sólidos na cor cinza */
+  border-radius: 5px;
+}
+
+/* Estilos dos inputs e botão */
+.input-container input {
+  margin: 10px 0;
+  padding: 10px;
+  width: 230px;
+  flex-direction: column;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  font-size: 1em;
+  background-color: #f1f1f1;
+}
+
+.input-container button {
+  margin-top: 20px;
+  padding: 10px 100px;
+  background-color: #3897f0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  background-color: #4fa3d1;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.h1Instagram{
+font-family: 'Sofia', cursive;
+color: rgb(49, 49, 49);
+cursor: default;
+}
+
+.h1BemVindo {
+  font-family: 'Quicksand', sans-serif;
+font-family: 'Sofia', cursive;
+font-family: 'Young Serif', serif;
+  color: #272727;
+}
+
+.boasvindas {
+  height: 100vh; /* Defina a altura da div como 100% da altura da viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #272727;
+}
+
+fieldset {
+  border: 2px solid #eaeaea;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f0f0f0;
+  width: 450px;
+  padding: 50px;
+
+}
+
+fieldset img{
+  width: 90px;
+}
+
+.botaoLike{
+  border: 0;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  font-size: 25px;
+  background-color: aliceblue;
+}
+
+.botaoLike:hover{
+  background-color: rgb(255, 227, 227);
+}
+.esqueceusenha{
+  text-decoration: underline;
+  color: #272727;
+  cursor: pointer;
+}
+
+.face{
+  color: #385185;
+  cursor: pointer;
+}
+
+.or{
+  color: #6f6f6f;
+}
+
+.error-message {
+  color: red;
+  font-size: 15px;
+}
